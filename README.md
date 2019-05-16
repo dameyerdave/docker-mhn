@@ -1,6 +1,6 @@
 # docker-mhn
 ```bash
-docker run -it -d --name mhn --hostname mhn \
+docker run -it -d --name mhn --hostname mhn --net <network> \
 -p 1480:80 \
 -p 1430:3000 \
 -p 1489:8089 \
