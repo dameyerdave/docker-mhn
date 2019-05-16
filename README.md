@@ -1,10 +1,10 @@
 # docker-mhn
 ```bash
 docker run -it -d --name mhn --hostname mhn \
--p <local-port>:80 \
--p <local-port>:3000 \
--p <local-port>:8089 \
--p <local-port>:10000 \
+-p 1480:80 \
+-p 1430:3000 \
+-p 1489:8089 \
+-p 1410:10000 \
 -v /data/mhn:/opt/mhn \
 dameyerdave/mhn
 ```
